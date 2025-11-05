@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+form{
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: large;
+    font-style: oblique
+}
+#box{
+    margin-left: 162px;
+}
+#box1{
+    margin-left: 15px;
+}
+#Address{
+    height: 77px;
+    width: 365px;
+}
+#box2{
+    margin-left: 147px;
+}
+#box3{
+    margin-left: 108px;
+}
+#box4{
+    margin-left:15px;
+}
+#box5{
+    margin-left: 15px;
+}
+#box6{
+    margin-left: 115px;
+}
+#box7{
+    margin-left: 68px;
+}
+small{
+    color: blue;
+}
+#box8{
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    font-weight: 200;
+    margin-top: 8px;
+    margin-left: 150px;
+}
+input{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
