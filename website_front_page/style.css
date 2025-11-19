@@ -115,8 +115,13 @@ h3 {
 #element-button {
     height: 45px;
     width: 45px;
-    margin-left: 10px;
+    margin-left: 15px;
     border-radius: 50px;
+    background-color: white;
+}
+
+#element-button i{
+    margin-left: 2px;
 }
 
 i {
