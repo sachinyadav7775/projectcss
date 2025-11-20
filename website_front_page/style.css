@@ -133,3 +133,28 @@ i {
     display: flex;
     justify-content: space-evenly;
 }
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#icon-box {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slategrey;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+#icon-box:hover {
+    background-color: cadetblue;
+    transition: 2s;
+}
