@@ -35,7 +35,7 @@ html,body{
 }
 #circle{
     display: grid;
-    grid-template-columns: repeat(4, 45px); /* 3 buttons per line */
+    grid-template-columns: repeat(4, 45px); /* 4 buttons per line */
     gap:6px; /*buttons ke beech ka space*/
     margin-left: 13px;
     margin-top: 10px;
