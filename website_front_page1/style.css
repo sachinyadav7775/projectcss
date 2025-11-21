@@ -170,6 +170,7 @@ small {
 .icon i:hover {
     background-color: steelblue;
     transition: 2s;
+    transform: rotate(360deg);
 }
 
 .login-page {
