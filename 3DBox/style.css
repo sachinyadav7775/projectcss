@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background: #0e2136;
@@ -6,8 +6,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.box{
+} 
+.box {
     background: #142d4a;
     height: 200px;
     aspect-ratio: 1/1;
@@ -16,14 +16,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-@property --deg{
+} 
+
+@property --deg {
     syntax: '<angle>';
     inherits: true;
     initial-value: 0deg;
 }
+
 .box::before,
-.box::after{
+.box::after {
     content: "";
     position: absolute;
     height: 100%;
@@ -40,11 +42,13 @@ body{
     padding: 2px;
     animation: autoRotate 2s linear infinite;
 }
-.box::after{
+
+.box::after {
     filter: blur(10px);
 }
-@keyframes autoRotate{
-    to{
+
+@keyframes autoRotate {  
+    to {
         --deg: 360deg;
     }
 }

@@ -1,21 +1,24 @@
-*{
+* {
     margin: 0%;
     padding:0%;
     box-sizing: border-box;
 }
-html,body{
+
+html,body {
     background-color: aqua;
     width: 100%;
     height: 100%;
 }
-#main{
+
+#main {
     width: 100%;
     height:100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.shape{
+
+.shape {
     margin-left: 10px;margin-top: 10px;
     height: 150px;
     width:150px;
@@ -24,28 +27,35 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-h1{
+
+h1 {
     font-weight: normal;
 }
-#square:hover{
+
+#square:hover {
     background-color: yellow;
 }
-#diamond:hover{
+
+#diamond:hover {
     background-color:blue;
 }
-#circle:hover{
+
+#circle:hover {
     background-color: darkorange;
 }
-#circle{
+
+#circle {
     border-radius: 50%;
 }
-#diamond{
+
+#diamond {
     margin-top: 30px;
     rotate: 45deg;
     width: 120px;
     height: 120px;
     translate: 15px;
 }
-#diamond h1{
+
+#diamond h1 {
     rotate: -45deg;
 }

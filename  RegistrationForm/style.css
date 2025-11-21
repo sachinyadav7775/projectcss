@@ -1,12 +1,14 @@
-*{
+* {
     margin:0%;
     padding:0%;
 }
-html,body{
+
+html,body {
     height:100%;
     width:100%;    
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
     background-color: aquamarine;
@@ -14,7 +16,8 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-.shape{
+
+.shape {
     height: 400px;
     width: 360px;
     border: 1px solid darkblue;
@@ -24,7 +27,8 @@ html,body{
     justify-content: center;
     border-radius: 4%;
 }
-#page{
+
+#page {
     height: 350px;
     width: 300px;
     border: 1px solid white;
@@ -32,13 +36,15 @@ html,body{
     display: inline-block;
     text-align: center;
 }
-#minus{
+
+#minus {
     height: 30px;
     background-color: rgb(236, 221, 221);
     border-radius: 4px;
     margin: 12px;
 }
-#minus1{
+
+#minus1 {
     margin-top: 3px;
     margin-left: 3px;
     background-color: rgb(5, 138, 138);

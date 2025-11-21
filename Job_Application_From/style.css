@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-html,body{
+
+html,body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
     background-color: black;
@@ -14,51 +16,64 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-.card{
+
+.card {
     height: 400px;
     width: 400px;
     border: 1px solid white;
     background-color: white;
     color: black;
 }
-form{
+
+form {
     margin-top: 8px;
     margin-left: 15px;
     font-size: large;
     font-style: oblique
 }
-#box{
+
+#box {
     margin-left: 162px;
 }
-#box1{
+
+#box1 {
     margin-left: 15px;
 }
-#Address{
+
+#Address {
     height: 77px;
     width: 365px;
 }
-#box2{
+
+#box2 {
     margin-left: 147px;
 }
-#box3{
+
+#box3 {
     margin-left: 108px;
 }
-#box4{
+
+#box4 {
     margin-left:15px;
 }
-#box5{
+
+#box5{ 
     margin-left: 15px;
 }
-#box6{
+
+#box6 {
     margin-left: 115px;
 }
-#box7{
+
+#box7 {
     margin-left: 68px;
 }
-small{
+
+small {
     color: blue;
 }
-#box8{
+
+#box8 {
     background-color: orangered;
     border: 1px solid orangered;
     color: white;
@@ -70,11 +85,10 @@ small{
     margin-top: 8px;
     margin-left: 150px;
 }
-input{
+
+input {
     height: 30px;
     border: 1px solid black;
     border-radius: 4px;
     text-align: center;
 }
-
-

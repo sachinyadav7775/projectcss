@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-html,body{
+
+html,body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
     background-color: rgb(201, 201, 243);
@@ -14,7 +16,8 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-.card{
+
+.card {
     height: 320px;
     width: 220px;
     border: 1px solid black;
@@ -22,7 +25,8 @@ html,body{
     border-radius: 8px;
     display: block;
 }
-#card1{
+
+#card1 {
     height: 65px;
     width: 219px;
     border: 1px solid black;
@@ -33,7 +37,8 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-#circle{
+
+#circle {
     display: grid;
     grid-template-columns: repeat(4, 45px); /* 4 buttons per line */
     gap:6px; /*buttons ke beech ka space*/
@@ -44,7 +49,8 @@ html,body{
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.circle{
+
+.circle {
     height: 40px;
     width: 40px;
     border-radius: 30%;
@@ -52,112 +58,131 @@ html,body{
     color: white;
     display: block;
 }
-#box{
+
+#box {
     margin-right: 40px;
 }
-#box3{
+
+#box3 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: orange;
 }
-#box4{
+
+#box4 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: orange;
 }
-#box5{
+
+#box5 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: orange;
 }
-#box6{
+
+#box6 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(159, 158, 158);
 }
-#box7{
+
+#box7 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box8{
+
+#box8 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box9{
+
+#box9 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box10{
+
+#box10 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: gray;
 }
-#box11{
+
+#box11 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box12{
+
+#box12 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box13{
+
+#box13 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box14{
+
+#box14 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: gray;
 }
-#box15{
+
+#box15 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box16{
+
+#box16 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box17{
+
+#box17 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
 }
-#box18{
+
+#box18 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: gray;
 }
-#box19{
+
+#box19 {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(133, 30, 207);
 }
-#box20{
+
+#box20 {
     height: 40px;
     width: 90px;
     border-radius: 30px;
@@ -166,7 +191,8 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-#box21{
+
+#box21 {
     display: flex;
     align-items: center;
     justify-content: center;

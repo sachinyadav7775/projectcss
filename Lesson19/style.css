@@ -1,12 +1,14 @@
-*{
+* {
     margin:0%;
     padding: 0%;
 }
-html,body{
+
+html,body { 
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
     background-color: rgb(55,125,188);
@@ -14,14 +16,16 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-.card{
+
+.card {
     height: 330px;
     width: 250px;
     border: 1px solid white;
     border-radius: 12px;
     background-color: white;
 }
-#box{
+
+#box {
     height: 40px;
     width: 180px;
     background-color: yellow;
@@ -29,50 +33,62 @@ html,body{
     border-radius: 8px;
     margin-bottom: 30px;
 }
-h3{
+
+h3 {
     text-align: center;
     margin-top: 15px;
-}
-#p{
+} 
+
+#p {
     color: white;
 }
-form{
+
+form {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 12px;
 }
-#box1{
+
+#box1 {
     margin-right: 25px;
 }
-#box3{
+
+#box3 {
     height: 30px;
     border-radius: 4px;
     border: 1px solid rgb(206, 193, 193);
 }
-#box4{
+
+#box4 {
     margin-top: 6px;
 }
-#box5{
+
+#box5 {
     height: 30px;
     border-radius: 4px;
     border: 1px solid rgb(206, 193, 193);
 }
-#box6{
+
+#box6 {
     margin-top: 6px;
 }
-#box7{
+
+#box7 {
     height: 30px;
     border-radius: 4px;
     border: 1px solid rgb(206, 193, 193);
 }
-#box8{
+
+#box8 {
     margin-top: 10px;
 }
-#box9{
+
+#box9 {
     margin-left: 76px;
 }
-#box10{
+
+#box10 {
     height: 30px;
     width: 170px;
     margin-top: 20px;
@@ -81,6 +97,7 @@ form{
     background-color: rgb(55,125,188);
     color: white;
 }
-#box12{
+
+#box12 {
     margin-left: 25px;
 }

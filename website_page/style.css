@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-html,body{
+html,body {
     height: 100%;
     width: 100%;
 }
 
-.main{
+.main {
     height: 100%;
     width: 100%;
     background-color: rgba(150, 155, 209, 0.5);
@@ -17,15 +17,14 @@ html,body{
     justify-content: center;
 }
 
-#crad{
+#crad {
     height:370px;
     width:700px;
     border: 1px solid rgba(255,255,255,0.5);
     background-color: rgba(255,255,255,0.5);
-    /* border-radius: 10px; */
 }
 
-header{
+header {
     height: 30px;
     background-color: white;
     display: flex;
@@ -36,39 +35,39 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#gap{
+#gap {
     margin-left: 270px;
 }
 
-#word{
+#word {
     margin-right: 20px;
 }
 
-#word1{
+#word1 {
     margin-right: 20px;
 }
 
-#word2{
+#word2 {
     margin-right: 20px;
 }
 
-#word3{
+#word3 {
     margin-right: 20px;
 }
 
-#word4{
+#word4 {
     margin-right:20px;
 }
 
-big{
+big {
     color: rgba(0,0,255,0.5);
 }
 
-h2{
+h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-button{
+button {
     height: 25px;
     width: 80px;
     border-radius: 6px;
@@ -79,16 +78,16 @@ button{
     margin-top: 20px;
 }
 
-#word5{
+#word5 {
     margin: 60px;
     display: flex;
 }
 
-img{
+img {
     margin-left: 100px;
 }
 
-i{
+i {
     margin-top: 4px;
     margin-left: 20px;
 }
