@@ -107,7 +107,6 @@ h4 {
     z-index: -1;
     padding: 2px;
     animation: autoRotate 2s linear infinite;
-
 }
 
 .circle::after {
