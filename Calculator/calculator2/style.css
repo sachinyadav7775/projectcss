@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right,#414A4C,#2A3439 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 600px;
+    width: 400px;
+    background: linear-gradient(to right,#2A343f,#414f4f,#2A3f39 );
+    border-radius: 15px;
+    position: relative;
+}
+
+.nav-search {
+    height: 95px;
+    width: 90%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    background: linear-gradient(to right,#2f3f3f,#4f4f4f,#2f3f3f );
+    margin-left: 20px;
+    margin-top: 25px;
+    border: none;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: repeat(4, 45px); /* 4 buttons per line */
+    column-gap: 50px;
+    row-gap: 10px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.circle {
+    background-color: #708090;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #708090;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#circle1 {
+    height: 70px;
+    width: 165px;
+    border: 1px solid #708090;
+}
+
+h4 {
+    color: #00FF00;
+}
+
+.circle:hover {
+    background-color: #2A343f;
+    transition: 2s;
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+
+@property --deg {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+.circle::before {
+    content: "";
+    position: absolute;
+    inset: -3px;
+    background: conic-gradient(
+        from var(--deg) at center,
+        /* #00c3ff, */
+        #191970,
+        #4d0199,
+        #6300c6,
+        /* #00c3ff */
+        #32174D
+    );
+    border-radius: inherit;
+    z-index: -1;
+    padding: 2px;
+    animation: autoRotate 2s linear infinite;
+
+}
+
+.circle::after {
+    filter: blur(10px);
+}
+
+@keyframes autoRotate {  
+    to {
+        --deg: 360deg;
+    }
+}
