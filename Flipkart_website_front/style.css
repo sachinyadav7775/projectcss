@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    font-family: Arial;    
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: #F2F3F4;
+}
+
+.navbar {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0px;
+}
+
+/* box1 */
+.nav-logo {
+    height: 80px;
+    width: 200px;
+} 
+
+.logo {
+    background-image: url(images.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100%;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F0F8FF;
+    width: 50%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search input {
+    background-color:#F0F8FF ;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+}
+
+.search-input {
+    width: 100%;
+    font-size: larger;
+    border: none;
+}
+
+.search-icon {
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F8FF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 1.4rem;
+    color: #BEBFC5;
+    text-align: center;
+}
+
+.icon i {
+    margin: 30px;
+    margin-right: 5px;
+    font-size: xx-large; 
+}
+
+.icon-element span {
+    margin: 0 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.icon-element i {
+    margin-right: 5px;
+    font-size: 1.4rem;
+}
+
+/* box2 */
+.nav-first {
+    height: 135px;
+    width: 1532px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    margin-left: 10%;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.element img {
+    margin-top: 12px;
+}
+
+.element p {
+    text-align: center;
+}
+
+.box {
+    height: 222px;
+    background-color: white;
+    background-image: url(image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.page {
+    display: flex;
+}
+
+.box1 {
+    height: 321px;
+    width: 90%;
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+.box2 {
+    height: 62px;
+    background-color: white;
+}
+
+.box2 h2 {
+    padding: 16px;
+    color: #1f1f1f;
+}
+
+.card {
+    height: 321px;
+    width: 209px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    background-image: url(ies.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    height: 260px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.element1 {
+    height: 200px;
+    width: 200px;
+    background-image: url(image_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.element2 {
+    height: 200px;
+    width: 200px;
+    background-image: url(image_4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.element3 {
+    height: 200px;
+    width: 200px;
+    background-image: url(image_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.element4 {
+    height: 200px;
+    width: 200px;
+    background-image: url(image_.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.element5 {
+    height: 200px;
+    width: 200px;
+    background-image: url(image_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.card1 {
+    display: flex;
+    margin-top: 16px;
+}
+
+.box5 {
+    height: 80px;
+    width: 523px;
+    background-color: white;
+    padding: 25px;
+}
+
+.box6 {
+    height: 615px;
+    width: 523px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 45px);
+    column-gap: 210px;
+    row-gap: 10px;
+    padding: 0px 12px 12px ;
+}
+
+.box7 {
+    margin-left: 16px;
+}
+
+.box8 {
+    height: 80px;
+    width: 523px;
+    background-color: white;
+    padding: 25px;
+}
+
+.box9 {
+    height: 615px;
+    width: 523px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 45px);
+    column-gap: 210px;
+    row-gap: 10px;
+    padding: 0px 12px 12px ;
+}
+
+.small-box {
+    height: 297.33px;
+    width: 241.33px;
+    border: 0.2px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box1 {
+    height: 297.33px;
+    width: 241.33px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box2 {
+    height: 297.33px;
+    width: 241.33px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box3 {
+    height: 297.33px;
+    width: 241.33px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+
+h4 {
+    color: #108914;
+}
+
+ h3 {
+    padding-top: 16px;
+}
+
+.img {
+    height: 206px;
+    width: 206px;
+    background-image: url(shoes.jpg);
+    background-size: cover;
+}
+.img1 {
+    height: 206px;
+    width: 206px;
+    background-image: url(man.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img2 {
+    height: 206px;
+    width: 206px;
+    background-image: url(b.webp);
+    background-size: cover;
+}
+.img3 {
+    height: 206px;
+    width: 206px;
+    background-image: url(m-.webp);
+    background-size: cover;
+}
