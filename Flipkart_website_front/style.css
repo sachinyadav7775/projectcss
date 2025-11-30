@@ -86,11 +86,12 @@ html,body {
 
 /* box2 */
 .nav-first {
-    height: 135px;
+    /* height: 135px; */
     width: 1532px;
     margin-top: 100px;
     background-color: #ffffff;
     margin-left: 10%;
+    display: block;
 }
 
 .element {
@@ -302,4 +303,175 @@ h4 {
     width: 206px;
     background-image: url(m-.webp);
     background-size: cover;
+}
+
+.img4 {
+    height: 695px;
+    width: 523px;
+    background-image: url(9c.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+}
+
+.card2 {
+    margin-top: 16px;
+}
+
+.box10 {
+    height: 80px;
+    background-color: white;
+    padding: 25px;
+}
+
+.box11 {
+    height: 264px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small-box5 {
+    height: 252px;
+    width: 200px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box6 {
+    height: 252px;
+    width: 200px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box7 {
+    height: 252px;
+    width: 200px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box8 {
+    height: 252px;
+    width: 200px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box9 {
+    height: 252px;
+    width: 200px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box10 {
+    height: 252px;
+    width: 200px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+.small-box11 {
+    height: 252px;
+    width: 200px;
+    border: 0.5px solid #F4F0EC;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+}
+
+.img5 {
+    height: 170px;
+    width: 170px;
+    background-image: url(image_5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img6 {
+    height: 170px;
+    width: 170px;
+    background-image: url(image_8.jpg);
+    background-size: cover;
+}
+.img7 {
+    height: 170px;
+    width: 170px;
+    background-image: url(image_6.jpg);
+    background-size: cover;
+}
+.img8 {
+    height: 170px;
+    width: 170px;
+    background-image: url(image_7.jpg);
+    background-size: cover;
+}
+
+.img9 {
+    height: 170px;
+    width: 170px;
+    background-image: url(realme.webp);
+    background-size: cover;
+}
+
+.img10 {
+    height: 170px;
+    width: 170px;
+    background-image: url(GL.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img11 {
+    height: 170px;
+    width: 170px;
+    background-image: url(Home.webp);
+    background-size: cover;
+}
+
+.foot-panel1 {
+    height: 285px;
+    background-color: #242124;
+}
+
+.foot-panel2 {
+    height: 69px;
+    background-color: #aa1faa;
+}
+
+.foot-element1 {
+    padding: 25px;
+}
+
+.foot-element {
+    display: flex;
+    padding: 40px 60px 0px;
+    justify-content: space-evenly;
+}
+
+.foot-box, .foot-box1, .foot-box2, .foot-box3 {
+    height: 205px;
+    width: 150px;
+    border: 1px solid red;
+}
+
+.foot-box4, .foot-box5 {
+    height: 205px;
+    width: 287.75px;
+    border: 1px solid red;
+}
+
+h6 {
+    color: #878787;
+}
+a {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+.foot-box5 a {
+    color: #2874c0;
 }
