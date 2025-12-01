@@ -8,6 +8,8 @@ html,body {
     background-color: #F2F3F4;
 }
 
+/* <------------------NAVBAR------------------> */
+
 .navbar {
     position: fixed;
     height: 90px;
@@ -19,7 +21,6 @@ html,body {
     top: 0px;
 }
 
-/* box1 */
 .nav-logo {
     height: 80px;
     width: 200px;
@@ -84,13 +85,18 @@ html,body {
     font-size: 1.4rem;
 }
 
-/* box2 */
+/* <--------------------MAIN CONTANT BOX1--------------------> */
+
 .nav-first {
-    /* height: 135px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-second {
     width: 1532px;
     margin-top: 100px;
-    background-color: #ffffff;
-    margin-left: 10%;
+    background-color: white;
     display: block;
 }
 
@@ -105,31 +111,37 @@ html,body {
 }
 
 .element p {
+    font-weight: 600;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .box {
-    height: 222px;
-    background-color: white;
+    height: 266px;
+    width: 1532px;
+    background-color: rgb(18, 2, 2);
     background-image: url(image.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 30px;
+    margin: 20px 0px 0px 190px;
 }
+
+/* <-----------------MAIN CONTENE BOX2-----------------> */
 
 .page {
     display: flex;
 }
 
 .box1 {
-    height: 321px;
-    width: 90%;
+    height: 373px;
+    width: 1270px;
     background-color: aqua;
-    margin-top: 20px;
+    margin: 20px 0px 0px 190px;
 }
 
 .box2 {
     height: 62px;
+    width: 1270px;
     background-color: white;
 }
 
@@ -139,10 +151,10 @@ html,body {
 }
 
 .card {
-    height: 321px;
-    width: 209px;
+    height: 373px;
+    width: 250px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
     background-color: white;
     background-image: url(ies.webp);
     background-size: cover;
@@ -150,56 +162,88 @@ html,body {
 }
 
 .box3 {
-    height: 260px;
+    height: 312px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.element1 {
-    height: 200px;
+.element1, .element2, .element3, .element4, .element5 {
+    height: 260px;
+    width: 220px;
+    border: 1px solid rgb(165, 30, 30);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-card, .small-card1, .small-card2, .small-card3, .small-card4 {
+    height: 235px;
     width: 200px;
-    background-image: url(image_3.jpg);
+    border: 1px solid white;
+    border: none;
+    padding: 12px 24px;
+}
+
+.small-img {
+    height: 155px;
+    background-image: url(image_5.jpg);
     background-size: contain;
     background-repeat: no-repeat;  
 }
 
-.element2 {
-    height: 200px;
-    width: 200px;
-    background-image: url(image_4.jpg);
+.small-img1 {
+    height: 175px;
+    background-image: url(clock.webp);
     background-size: contain;
     background-repeat: no-repeat;  
 }
 
-.element3 {
-    height: 200px;
-    width: 200px;
-    background-image: url(image_3.jpg);
+.small-img2 {
+    height: 155px;
+    background-image: url(helmet.webp);
     background-size: contain;
     background-repeat: no-repeat;  
 }
 
-.element4 {
-    height: 200px;
-    width: 200px;
-    background-image: url(image_.jpg);
+.small-img3 {
+    height: 155px;
+    background-image: url(original.webp);
     background-size: contain;
     background-repeat: no-repeat;  
 }
 
-.element5 {
-    height: 200px;
-    width: 200px;
-    background-image: url(image_3.jpg);
+.small-img4 {
+    height: 155px;
+    background-image: url(ipad.webp);
     background-size: contain;
     background-repeat: no-repeat;  
 }
+
+.small-card h5, .small-card2 h5, .small-card3 h5, .small-card4 h5 {
+    padding: 12px 0px 0px;
+}
+
+.small-card p, .small-card1 p, .small-card2 p, .small-card3 p, .small-card4 p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.small-card h5, .small-card1 h5, .small-card2 h5, .small-card3 h5, .small-card4 h5 {
+    text-align: center;
+}
+
+.small-card1 h5 {
+    padding: 6px 0px 0px;
+}
+
+/* <------------------MAIN CONTENT BOX3------------------> */
 
 .card1 {
     display: flex;
-    margin-top: 16px;
+    margin: 20px 0px 0px 190px;
 }
 
 .box5 {
@@ -207,6 +251,34 @@ html,body {
     width: 523px;
     background-color: white;
     padding: 25px;
+    display: flex;
+}
+
+.box5 .circle , .box8 .circle {
+    margin-left: 210px;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    background-color: #2a55e5;
+    border-radius: 50%;
+}
+
+.small-circle {
+    height: 16px;
+    width: 16px;
+    background-color: #2a55e5;
+    color: #fff;
+    font-size: larger;    
+}
+
+.circle, .small-circle {
+    border: 1px solid brown;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box6 {
@@ -229,6 +301,7 @@ html,body {
     width: 523px;
     background-color: white;
     padding: 25px;
+    display: flex;
 }
 
 .box9 {
@@ -249,6 +322,7 @@ html,body {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box1 {
     height: 297.33px;
     width: 241.33px;
@@ -256,6 +330,7 @@ html,body {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box2 {
     height: 297.33px;
     width: 241.33px;
@@ -263,6 +338,7 @@ html,body {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box3 {
     height: 297.33px;
     width: 241.33px;
@@ -275,7 +351,7 @@ h4 {
     color: #108914;
 }
 
- h3 {
+h3 {
     padding-top: 16px;
 }
 
@@ -285,6 +361,7 @@ h4 {
     background-image: url(shoes.jpg);
     background-size: cover;
 }
+
 .img1 {
     height: 206px;
     width: 206px;
@@ -292,12 +369,14 @@ h4 {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .img2 {
     height: 206px;
     width: 206px;
     background-image: url(b.webp);
     background-size: cover;
 }
+
 .img3 {
     height: 206px;
     width: 206px;
@@ -307,25 +386,29 @@ h4 {
 
 .img4 {
     height: 695px;
-    width: 523px;
+    width: 460px;
     background-image: url(9c.webp);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 16px;
 }
 
+/* <--------------------MAIN CONTENT BOX4--------------------> */
+
 .card2 {
-    margin-top: 16px;
+    margin: 20px 0px 0px 190px;
 }
 
 .box10 {
     height: 80px;
-    background-color: white;
+    width: 1535px;
     padding: 25px;
+    background-color: white;
 }
 
 .box11 {
     height: 264px;
+    width: 1535px;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -338,6 +421,7 @@ h4 {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box6 {
     height: 252px;
     width: 200px;
@@ -345,6 +429,7 @@ h4 {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box7 {
     height: 252px;
     width: 200px;
@@ -352,6 +437,7 @@ h4 {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box8 {
     height: 252px;
     width: 200px;
@@ -359,6 +445,7 @@ h4 {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box9 {
     height: 252px;
     width: 200px;
@@ -366,6 +453,7 @@ h4 {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box10 {
     height: 252px;
     width: 200px;
@@ -373,6 +461,7 @@ h4 {
     padding: 16px 16px 16px 16px;
     border-radius: 4px;
 }
+
 .small-box11 {
     height: 252px;
     width: 200px;
@@ -388,18 +477,21 @@ h4 {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .img6 {
     height: 170px;
     width: 170px;
     background-image: url(image_8.jpg);
     background-size: cover;
 }
+
 .img7 {
     height: 170px;
     width: 170px;
     background-image: url(image_6.jpg);
     background-size: cover;
 }
+
 .img8 {
     height: 170px;
     width: 170px;
@@ -427,51 +519,110 @@ h4 {
     width: 170px;
     background-image: url(Home.webp);
     background-size: cover;
-}
+} 
+
+/* <----------------- FOOTER ----------------->*/
 
 .foot-panel1 {
-    height: 285px;
-    background-color: #242124;
-}
-
-.foot-panel2 {
-    height: 69px;
-    background-color: #aa1faa;
-}
-
-.foot-element1 {
-    padding: 25px;
+    background: #242124;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-bottom: 0.1px solid #979899;
 }
 
 .foot-element {
     display: flex;
-    padding: 40px 60px 0px;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
-.foot-box, .foot-box1, .foot-box2, .foot-box3 {
-    height: 205px;
-    width: 150px;
-    border: 1px solid red;
+.foot-box, .foot-box1, .foot-box2,
+.foot-box3, .foot-box4, .foot-box5 {
+    width: 250px;
+    text-align: left;
 }
 
-.foot-box4, .foot-box5 {
-    height: 205px;
-    width: 287.75px;
-    border: 1px solid red;
+.foot-box a, .foot-box1 a, .foot-box2 a, .foot-box3 a {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 5px 0;
 }
 
 h6 {
     color: #878787;
 }
-a {
+
+.foot-element p {
     color: #ffffff;
+    font-size: 13px;
 }
 
-p {
-    color: #ffffff;
+.foot-social i {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.foot-panel2 {
+    background: #242124;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
 }
 
 .foot-box5 a {
     color: #2874c0;
+}  
+
+.foot-element a {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.foot-element p {
+    font-size: 0.79rem;
+}
+
+.foot-element h6 {
+    margin-bottom: 12px;
+}
+
+.foot-social h6 {
+    margin-top: 12px;
+}
+
+.foot-social i {
+    margin-top: 8px;
+    font-size: x-large;
+}
+
+.foot-box4 p, .foot-box5 p {
+    margin: 5px 0;
+}
+
+.foot-element1 i {
+    color: #FFDB58;
+    font-size: 0.65rem;
+}
+
+.foot-panel2 {
+    font-size: 0.79rem;
+}
+
+.foot-element1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .nav-search {
+        width: 90%;
+    }
 }
