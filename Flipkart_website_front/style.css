@@ -8,7 +8,7 @@ html,body {
     background-color: #F2F3F4;
 }
 
-/* <------------------NAVBAR------------------> */
+/* <------------------NAVBAR-CONTENT------------------> */
 
 .navbar {
     position: fixed;
@@ -85,7 +85,7 @@ html,body {
     font-size: 1.4rem;
 }
 
-/* <--------------------MAIN CONTANT BOX1--------------------> */
+/* <--------------------MAIN-CONTANT-BOX1--------------------> */
 
 .nav-first {
     display: flex;
@@ -126,7 +126,7 @@ html,body {
     margin: 20px 0px 0px 190px;
 }
 
-/* <-----------------MAIN CONTENE BOX2-----------------> */
+/* <-----------------MAIN-CONTENE-BOX2-----------------> */
 
 .page {
     display: flex;
@@ -156,7 +156,7 @@ html,body {
     margin-top: 20px;
     margin-left: 15px;
     background-color: white;
-    background-image: url(ies.webp);
+    background-image: url(flight.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -239,7 +239,7 @@ html,body {
     padding: 6px 0px 0px;
 }
 
-/* <------------------MAIN CONTENT BOX3------------------> */
+/* <------------------MAIN-CONTENT-BOX3------------------> */
 
 .card1 {
     display: flex;
@@ -373,27 +373,27 @@ h3 {
 .img2 {
     height: 206px;
     width: 206px;
-    background-image: url(b.webp);
+    background-image: url(image2.webp);
     background-size: cover;
 }
 
 .img3 {
     height: 206px;
     width: 206px;
-    background-image: url(m-.webp);
+    background-image: url(man_jacket.webp);
     background-size: cover;
 }
 
 .img4 {
     height: 695px;
     width: 460px;
-    background-image: url(9c.webp);
+    background-image: url(image1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 16px;
 }
 
-/* <--------------------MAIN CONTENT BOX4--------------------> */
+/* <--------------------MAIN-CONTENT-BOX4--------------------> */
 
 .card2 {
     margin: 20px 0px 0px 190px;
@@ -509,7 +509,7 @@ h3 {
 .img10 {
     height: 170px;
     width: 170px;
-    background-image: url(GL.jpg);
+    background-image: url(image_9.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -521,7 +521,7 @@ h3 {
     background-size: cover;
 } 
 
-/* <----------------- FOOTER ----------------->*/
+/* <-----------------FOOTER-CONTENT----------------->*/
 
 .foot-panel1 {
     background: #242124;

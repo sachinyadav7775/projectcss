@@ -13,7 +13,8 @@
     justify-content: space-evenly;
 }
 
-/* box1 */
+/* <--------------------BOX1-CONTENT--------------------> */
+
 .nav-logo {
     height: 50px;
     width: 112px;
@@ -34,7 +35,8 @@
     width: 100%;
 }
 
-/* box2 */
+/* <--------------------BOX2-CONTENT--------------------> */
+
 .address-first-word {
     color: #cccccc;
     font-size: 0.85rem;
@@ -54,7 +56,8 @@
     margin:10px;
 }
 
-/* box3 */
+/* <--------------------BOX3-CONTENT--------------------> */
+
 .nav-search {
     display: flex;
     justify-content: space-evenly;
@@ -96,7 +99,8 @@
     color: #0f1111;
 }
 
-/* box4 */
+/* <--------------------BOX4-CONTENT--------------------> */
+
 span {
     font-size: 0.8rem;
 }
@@ -106,7 +110,8 @@ span {
     font-weight: 700;
 }
 
-/* box5 */
+/* <--------------------BOX5-CONTENT--------------------> */
+
 .nav-cart i {
     font-size: 38px;
 }
@@ -116,7 +121,8 @@ span {
     font-weight: 700;
 }
 
-/* panel */
+/* <--------------------PANEL-CONTENT--------------------> */
+
 .panel {
     height: 40px;
     background-color: #222f3d;
@@ -141,7 +147,8 @@ span {
     font-weight: 700;
 }
 
-/* hero section */
+/* <------------------HERO-SECTION-CONTENT------------------> */
+
 .hero-section {
     background-image: url("image5.jpg");
     background-size: cover;
@@ -167,7 +174,8 @@ a {
     color: #2162A1;
 }
 
-/* shop-section */
+/* <------------------SHOP-SECTION-CONTENT------------------> */
+
 .shop-section {
     display: flex;
     flex-wrap: wrap;
@@ -277,7 +285,8 @@ a {
     margin-right: 1rem;
 }
 
-/* footer */
+/* <--------------------FOOTER-CONTENT--------------------> */
+
 .foot-panel1 {
     height: 49px;
     display: flex;
@@ -367,7 +376,8 @@ button {
     margin: 7.2px;
 }
 
-/* panel5 */
+/* <--------------------PANEL5-CONTENT--------------------> */
+
 .foot-panel5 {
     height: 365px;
     background-color: #131A22;
