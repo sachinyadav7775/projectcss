@@ -205,3 +205,10 @@ big {
     font-size: large;
     font-weight: 700;
 }
+
+.button:hover {
+    transition: 4s;
+    background-color: rgb(255, 122, 99);
+    color: rgb(243, 237, 237);
+    font-weight: 800;
+}
