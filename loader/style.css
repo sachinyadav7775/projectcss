@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ada6a6;
+}
+
+.loader {
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+    border-top-color: gray;
+    border-radius: 50%;
+    animation: sky 2s infinite cubic-bezier(1, 0.63, 0.15, 0.96);
+}
+
+@keyframes sky {
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
