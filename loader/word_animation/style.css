@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    background: linear-gradient(to right, #0F52BA, #FF6FFF, #00FFFF, #3FFF00, #F8F4FF);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 60px rgba(255, 0, 0, 0.85);
+    animation: sky 1s linear infinite alternate;
+}
+
+@keyframes sky {
+    100% {
+        text-shadow: 0 0 60px rgba(0, 0, 255, 0.85);
+    }
+}
