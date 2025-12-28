@@ -25,22 +25,18 @@ body {
     position:absolute;
     width:200px;
     height:200px;
-    border:8px solid white;
-    border-top-color:rgb(240, 46, 46);
-    border-bottom-color: black;
-    border-left-color: black;
-    border-right-color: black;
+    border-top: 8px solid crimson;
     border-radius:50%;
     animation: sky 2s cubic-bezier(0, 0, 0.1, .99) infinite;
 }
 
 .loader span {
     color:white;
-    font-size:24px;
+    font-size:20px;
     z-index:1;
 }
 
-@keyframes sky{
+@keyframes sky {
     from{ transform:rotate(0deg); }
     to{ transform:rotate(360deg); }
 }
