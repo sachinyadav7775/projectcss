@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 10px;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 108, 160);
+    animation: sky 1s linear  infinite;
+
+}
+
+@keyframes sky {
+    100% {
+        transform: ;
+    }
+}
