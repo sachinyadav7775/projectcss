@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.circle1 {
+    height: 240px;
+    width: 240px;
+    border: 8px solid springgreen;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    animation: rotate 1s ease-in infinite 0.5s;
+}
+
+.circle2 {
+    height: 200px;
+    width: 200px;
+    border: 8px solid skyblue;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    animation: rotate1 2s ease-in infinite 1s;
+}
+
+.circle3 {
+    height: 160px;
+    width: 160px;
+    border: 8px solid salmon;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    animation: rotate2 3s ease-in infinite 2s;
+}
+
+.circle4 {
+    height: 120px;
+    width: 120px;
+    border: 8px solid aquamarine;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    animation: rotate3 4s ease-in infinite 3s;
+}
+
+.circle5 {
+    height: 80px;
+    width: 80px;
+    border: 8px solid lawngreen;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    animation: rotate4 5s ease-in infinite 4s;
+}
+
+.circle6 {
+    height: 40px;
+    width: 40px;
+    border: 8px solid turquoise;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    animation: rotate5 6s ease-in infinite 5s;
+}
+
+.circle7 {
+    height: 10px;
+    width: 10px;
+    border: 8px solid red;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    animation: rotate6 7s ease-in infinite 6s;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate1 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate3 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate4 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate5 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate6 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
