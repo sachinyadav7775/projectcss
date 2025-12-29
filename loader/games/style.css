@@ -16,114 +16,53 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: rotate 2s cubic-bezier(0.16, 1.1, 0.62, 1.01) infinite;
 }
 
 .circle1 {
     height: 240px;
     width: 240px;
-    border: 8px solid rgb(250, 84, 84);
-    border-left-color: black;
-    border-right-color: black;
-    border-bottom-color: black;
-    animation: rotate1 2s ease-in infinite;
+    border-top: 8px solid crimson;
+    animation-delay: 0.1s;
 }
 
 .circle2 {
     height: 200px;
     width: 200px;
-    border: 8px solid rgb(251, 192, 83);
-    border-left-color: black;
-    border-right-color: black;
-    border-bottom-color: black;
-    animation: rotate2 2s ease-in 0.2s infinite ;
+    border-top: 8px solid springgreen;
+    animation-delay: 2s;
 }
 
 .circle3 {
     height: 160px;
     width: 160px;
-    border: 8px solid rgb(215, 215, 99);
-    border-left-color: black;
-    border-right-color: black;
-    border-bottom-color: black;
-    animation: rotate3 2s ease-in 0.4s infinite;
+    border-top: 8px solid skyblue;
+    animation-delay: 4s;
 }
 
 .circle4 {
     height: 120px;
     width: 120px;
-    border: 8px solid rgb(179, 240, 117);
-    border-left-color: black;
-    border-right-color: black;
-    border-bottom-color: black;
-    animation: rotate4 1s ease-in 0.6s infinite;
+    border-top: 8px solid sandybrown;
+    animation-delay: 6s;
 }
 
 .circle5 {
     height: 80px;
     width: 80px;
-    border: 8px solid rgb(132, 132, 233);
-    border-left-color: black;
-    border-right-color: black;
-    border-bottom-color: black;
-    animation: rotate5 1s ease-in 0.8s infinite;
+    border-top: 8px solid aquamarine;
+    animation-delay: 8s;
 }
 
 .circle6 {
     height: 40px;
     width: 40px;
-    border: 8px solid rgb(177, 96, 234);
-    border-left-color: black;
-    border-right-color: black;
-    border-bottom-color: black;
-    /* animation: rotate6 1s ease-in 1s infinite; */
+    border-top: 8px solid orangered;
+    animation-delay: 10s;
 }
 
-/* @keyframes rotate1 {
+@keyframes rotate {
     100% {
         transform: rotate(360deg);
     }
-}
-
-@keyframes rotate2 {
-    100% {
-        transform: rotate(360deg);
-    }
-} */
-
-/* @keyframes rotate3 {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes rotate4 {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes rotate5 {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes rotate6 {
-    100% {
-        transform: rotate(360deg);
-    }
-} */
-
-.box {
-    height: 200px;
-    width: 200px;
-    border-top: 10px solid crimson;
-    /* border-left: 10px solid crimson; */
-    /* border-right: 10px solid crimson; */
-    border-radius: 50%;
-    color: azure;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
