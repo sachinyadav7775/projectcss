@@ -111,11 +111,11 @@ ul li:hover:nth-child(2) a {
 }
 
 ul li:hover:nth-child(2) a::before {
-    background: #05a3cf;
+    background: #06b1e1;
 }
 
 ul li:hover:nth-child(2) a::after {
-    background: #00B7EB;
+    background: #06aad7;
 }
 
 ul li:hover:nth-child(3) a {
