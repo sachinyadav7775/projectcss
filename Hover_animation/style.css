@@ -19,6 +19,7 @@ ul {
 }
 
 ul li {
+    font-weight: 600;
     list-style: none;
     margin: 0 5px;
 }
@@ -107,15 +108,15 @@ ul li:hover:nth-child(1) a::after {
 }
 
 ul li:hover:nth-child(2) a {
-    background: #00B7EB;
+    background: #22303c;
 }
 
 ul li:hover:nth-child(2) a::before {
-    background: #06b1e1;
+    background: #182532;
 }
 
 ul li:hover:nth-child(2) a::after {
-    background: #06aad7;
+    background: #182734;
 }
 
 ul li:hover:nth-child(3) a {
@@ -140,6 +141,30 @@ ul li:hover:nth-child(4) a::before {
 
 ul li:hover:nth-child(4) a::after {
     background: #e46880;
+}
+
+ul li:hover:nth-child(5) a {
+    background: #128C7E;
+}
+
+ul li:hover:nth-child(5) a::before {
+    background: #096e63;
+}
+
+ul li:hover:nth-child(5) a::after {
+    background: #076a5f;
+}
+
+ul li:hover:nth-child(6) a {
+    background: #f31717;
+}
+
+ul li:hover:nth-child(6) a::before {
+    background: #dc1616;
+}
+
+ul li:hover:nth-child(6) a::after {
+    background: #e41b1b;
 }
 
 @media (max-width: 600px) {
