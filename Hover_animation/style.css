@@ -107,15 +107,15 @@ ul li:hover:nth-child(1) a::after {
 }
 
 ul li:hover:nth-child(2) a {
-    background: navy;
+    background: #00B7EB;
 }
 
 ul li:hover:nth-child(2) a::before {
-    background: rgb(12, 12, 149);
+    background: #05a3cf;
 }
 
 ul li:hover:nth-child(2) a::after {
-    background: rgb(19, 19, 145);
+    background: #00B7EB;
 }
 
 ul li:hover:nth-child(3) a {
