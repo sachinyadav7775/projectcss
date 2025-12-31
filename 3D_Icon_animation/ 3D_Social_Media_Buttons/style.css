@@ -99,8 +99,8 @@ ul li:hover span:nth-child(1) {
 ul li:hover:nth-child(1)::before { background: #3f464e; }
 ul li:hover:nth-child(1)::after { background: #3e444d; }
 
-ul li:hover:nth-child(2)::before { background: #ff80aa; }
-ul li:hover:nth-child(2)::after { background: #e36690; }
+ul li:hover:nth-child(2)::before { background: #e04579; }
+ul li:hover:nth-child(2)::after { background: #a8204d; }
 
 ul li:hover:nth-child(3)::before { background: #1877F2; }
 ul li:hover:nth-child(3)::after { background: #1877F2; }
@@ -122,4 +122,13 @@ ul li:nth-child(3):hover span {
 
 ul li:nth-child(4):hover span {
     background: #25D366 !important;
+}
+
+@media (min-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+    ul li {
+        margin: 15px 0;
+    }
 }
