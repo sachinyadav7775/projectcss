@@ -124,7 +124,7 @@ ul li:nth-child(4):hover span {
     background: #25D366 !important;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     ul {
         flex-direction: column;
     }
