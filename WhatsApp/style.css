@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 80px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    padding: 0 40px;
+    z-index: 1000;
+    position: fixed;
+    background-color: #CEC9C1;
+    border-bottom: 1px solid #CEC9C1;
+    /* background: linear-gradient(#FCF5EB, transparent);
+    backdrop-filter: blur(4px); */
+    background: rgba(252, 245, 235, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-box1 { cursor: pointer; }
+
+.nav-box2 {
+    flex: 1;                  
+    height: 100%;
+    display: flex;
+    align-items: center;       
+    justify-content: center;  
+}
+
+.nav-box2 ul {
+    display: flex;
+    gap: 38px;                
+    align-items: center;    
+}
+
+.nav-box2 ul li {
+    list-style: none;
+    position: relative; 
+    cursor: pointer;
+}
+
+.nav-box2 span:hover::after{
+    width: 100%;
+}
+
+.nav-box2 span:after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    position: absolute;
+    transition: width 0.33s linear;
+    background-color: #25d366;
+}
+
+.nav-box3 {
+    height: 53px;
+    width: 310px;
+    display: flex;
+}
+
+.first-navbar-button,
+.second-navbar-button {
+    height: 53px;
+    margin-left: 12px;
+    border-radius: 50px;
+    border: 1px solid #1C1E21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.first-navbar-button svg,
+.second-navbar-button svg {
+    margin-left: 12px;
+}
+
+.first-navbar-button {
+    width: 129px;
+    background-color: #FFFFFF;
+}
+
+.second-navbar-button {
+    width: 157px;
+    background-color: #25D366;
+}
+
+.first-navbar-button:hover,
+.second-navbar-button:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+    color: #ffffff;
+}
+
+
+.first-navbar-button:hover::after,
+.second-navbar-button:hover::after {
+    bottom: 0; /* button ke peeche fully aa jaaye */
+}
+
+
+.first-navbar-button::after,
+.second-navbar-button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%; /* start button ke neeche */
+    width: 100%;
+    height: 100%;
+    background-color: #1C1E21;
+    border-radius: 50px; /* button ke shape ke liye */
+    z-index: -1; /* peeche rahe */
+    transition: bottom 0.5s cubic-bezier(.66, 0, .34, 1); /* smooth animation */
+}
+
+
+.box {
+    height: 500px;
+    background-color: #2d2b29;
+}
+
+.box1 {
+    height: 500px;
+    background-color: #e5790e;
+}
+    
+.box2 {
+    height: 500px;
+    background-color: #f61d05;
+}
+
+.box3 {
+    height: 500px;
+    background-color: #e83aba;
+}
