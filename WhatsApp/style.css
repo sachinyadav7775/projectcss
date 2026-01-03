@@ -16,7 +16,6 @@ body {
     padding: 0 40px;
     z-index: 1000;
     position: fixed;
-    background-color: #CEC9C1;
     border-bottom: 1px solid #CEC9C1;
     /* background: linear-gradient(#FCF5EB, transparent);
     backdrop-filter: blur(4px); */
@@ -102,7 +101,7 @@ body {
 
 .first-navbar-button:hover,
 .second-navbar-button:hover {
-    transform: scale(1.05); 
+    transform: scale(1); 
     transition: transform 0.3s ease;
     color: #ffffff;
 }
@@ -130,21 +129,111 @@ body {
 
 
 .box {
-    height: 500px;
-    background-color: #2d2b29;
+    width: 100%;
+    background-color: #CEC9C1;
+    padding: 32px;
 }
 
-.box1 {
-    height: 500px;
-    background-color: #e5790e;
-}
-    
-.box2 {
-    height: 500px;
-    background-color: #f61d05;
+.image {
+    height: 674px;
+    background-color: transparent;
+    background-image: url(WhatsApp.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
 }
 
-.box3 {
-    height: 500px;
-    background-color: #e83aba;
+.image-element {
+    width: 1128px;
+    height: 674px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: skyblue; */
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-box1 {
+    width: 456px;
+    height: 521px;
+    /* background-color: #25d366; */
+}
+
+.small-box1 h1 {
+    color: #FFFFFF;
+    font-size: 80px;
+    letter-spacing: -.04em;
+    line-height: 1;
+}
+
+.small-box1 p {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin: 1em 0;
+}
+
+.small-box2 {
+    height: 517px;
+    width: 435px;
+    /* background-color: #25d366; */
+    text-align: center;
+    line-height: 1.34;
+}
+
+.boxs {
+    height: 100vh;
+    background-color: aqua;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding-top: 70px;
+    }
+
+    .navbar {
+        padding: 0 16px;
+        height: 70px;
+    }
+
+    .nav-box2 {
+        display: none;
+    }
+
+    .nav-box3 {
+        width: auto;
+    }
+
+    .image-element {
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+        padding: 0;
+    }
+
+    .small-box1,
+    .small-box2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .small-box1 h1 {
+        font-size: 42px;
+    }
+
+    .image {
+        height: auto;
+        padding: 24px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
