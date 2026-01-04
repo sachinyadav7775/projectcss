@@ -284,19 +284,30 @@ body {
     display: flex;
     align-items: center;
     /* justify-content: space-around; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .panal-image {
-    width: 262px;
+    width: 260px;
     height: 196px;
     background-color: brown;
 }
 
 .panal-element {
-    width: 700px;
+    width: 100%;
+    max-width: 800px;
     height: 196px;
     background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panal-element ul {
+    list-style: none;
+    
 }
 
 .panal-logo {
@@ -315,13 +326,14 @@ body {
 
 .panal-icon {
     width: 100%;
-    max-width: 1080px;
+    max-width: 1050px;
     height: 118px;
     border-top: 1px solid #33463F;
     padding: 32px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 50px;
+    /* justify-content: space-around; */
 }
 
 .panal-box1 {
@@ -335,10 +347,16 @@ body {
 
 .panal-box1 p {
     font-size: 12px;
-    line-height: inherit;
+    line-height: 1.30;
     margin: 0 56px 0 0;
     letter-spacing: -0.01em;
-    
+    color: #fff;
+}
+
+.panal-box1 a {
+    color: #F0F4F9;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 .panal-box2 {
@@ -427,6 +445,27 @@ body {
     }
 
     img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .first-navbar-button,
+    .second-navbar-button {
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .small-box1 {
+        padding: 24px 16px;
+    }
+
+    .small-box1-button {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .small-box2 img {
         max-width: 100%;
         height: auto;
     }
