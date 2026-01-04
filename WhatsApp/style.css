@@ -6,9 +6,11 @@
 
 body {
     padding-top: 80px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+/* <===============HEADER-CONTENT===============> */
+/* <---------------NAVBAR-CONTENT---------------> */
 .navbar {
     width: 100%;
     height: 80px;
@@ -29,6 +31,7 @@ body {
 
 .nav-box1 { cursor: pointer; }
 
+/* <----------NAV-BOX2-CONTENT----------> */
 .nav-box2 {
     flex: 1;                  
     height: 100%;
@@ -64,6 +67,7 @@ body {
     background-color: #25d366;
 }
 
+/* <----------NAV-BOX3-CONTENT----------> */
 .nav-box3 {
     height: 53px;
     width: 310px;
@@ -106,12 +110,10 @@ body {
     color: #ffffff;
 }
 
-
 .first-navbar-button:hover::after,
 .second-navbar-button:hover::after {
     bottom: 0; 
 }
-
 
 .first-navbar-button::after,
 .second-navbar-button::after {
@@ -127,7 +129,9 @@ body {
     transition: bottom 0.5s cubic-bezier(.66, 0, .34, 1);
 }
 
-.box {
+/* <===============MAIN-CONTENT===============> */
+/* <---------------FIRST-BOX-MAIN-CONTENT---------------> */
+.first-boxs {
     width: 100%;
     background-color: #fcf5eb;
     padding: 32px;
@@ -153,6 +157,7 @@ body {
     justify-content: space-between;
 }
 
+/* <----------SMALL-BOX1-CONTENT----------> */
 .small-box1 {
     width: 430px;
     height: 521px;
@@ -179,14 +184,6 @@ body {
     margin-block-start: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-
-.small-box2 {
-    height: 517px;
-    width: 435px;
-    background-color: #25d366;
-    text-align: center;
-    line-height: 1.34;
 }
 
 .small-box1-button {
@@ -251,7 +248,17 @@ body {
     transition: bottom 0.5s cubic-bezier(.66, 0, .34, 1); 
 }
 
-.box1 {
+/* <----------SMALL-BOX2-CONTENT----------> */
+.small-box2 {
+    height: 517px;
+    width: 435px;
+    background-color: #25d366;
+    text-align: center;
+    line-height: 1.34;
+}
+
+/* <---------------SECOND-BOX-MAIN-CONTENT---------------> */
+.second-boxs {
     width: 100%;
     height: 252px;
     background-color: #fcf5eb;
@@ -266,12 +273,15 @@ body {
     margin: 0px auto;
 }
 
-.box2 {
+/* <---------------THIRD-BOX-MAIN-CONTENT---------------> */
+.third-boxs {
     width: 100%;
     height: 305px;
     background-color: #fcf5eb;
 }
 
+/* <=================FOOTER-CONTENT=================> */
+/* <---------------FIRST-PANAL-CONTENT---------------> */
 .first-panal {
     width: 100%;
     height: 380px;
@@ -286,6 +296,11 @@ body {
     width: 262.49px;
     height: 196.2px;
     background-color: brown;
+}
+
+.panal-logo {
+    width: 160px;
+    color: #FFFFFF;
 }
 
 .panal-button {
@@ -340,6 +355,7 @@ body {
     transition: bottom 0.5s cubic-bezier(.66, 0, .34, 1); 
 }
 
+/* <---------------PANAL-ELEMENT-CONTENT---------------> */
 .panal-element {
     width: 100%;
     max-width: 800px;
@@ -373,11 +389,7 @@ body {
     text-decoration: none;
 }
 
-.panal-logo {
-    width: 160px;
-    color: #FFFFFF;
-}
-
+/* <---------------SECOND-PANAL-CONTENT---------------> */
 .second-panal {
     width: 100%;
     height: 126px;
@@ -398,6 +410,7 @@ body {
     gap: 50px;
 }
 
+/* <---------------PANAL-BOX1-CONTENT---------------> */
 .panal-box1 {
     height: 80px;
     display: flex;
@@ -419,6 +432,7 @@ body {
     text-decoration: none;
 }
 
+/* <---------------PANAL-BOX2-CONTENT---------------> */
 .panal-box2 {
     height: 80px;
     display: flex;
@@ -439,6 +453,7 @@ body {
     justify-content: center;
 }
 
+/* <---------------PANAL-BOX3-CONTENT---------------> */
 .panal-box3 {
     width: 344px;
     height: 53px;
