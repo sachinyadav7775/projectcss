@@ -276,8 +276,59 @@ body {
 /* <---------------THIRD-BOX-MAIN-CONTENT---------------> */
 .third-boxs {
     width: 100%;
+    height: 304px;
+    background-color: #fcf5eb;
+}
+
+.Fourth-boxs {
+    width: 100%;
     height: 305px;
     background-color: #fcf5eb;
+}
+
+.Fifth-boxs {
+    width: 100%;
+    height: 309px;
+    background-color: #fcf5eb;
+}
+
+.Sixth-boxs {
+    width: 100%;
+    height: 746.08px;
+    background-color: #fcf5eb;
+}
+
+.Seventh-boxs {
+    width: 100%;
+    height: 826.08px;
+    background-color: #111B21;
+}
+
+.Eighth-boxs {
+    width: 100%;
+    height: 843.08px;
+    background-color: #fcf5eb;
+}
+
+.Ninth-boxs {
+    width: 100%;
+    height: 739px;
+    background-color: #E6FFDA;
+    position: relative;
+    z-index: 1;
+}
+
+.Ninth-boxs::after {
+    content: "";
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    background: #2c8104;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    z-index: 2;
 }
 
 /* <=================FOOTER-CONTENT=================> */
