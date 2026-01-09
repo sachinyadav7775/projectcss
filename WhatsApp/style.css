@@ -333,12 +333,9 @@ body {
     margin: auto;
     padding: 0px 24px;
     overflow: hidden;
-    /* background-color: #869d7b; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* column-gap: 16px; */
-    /* gap: 40px; */
 }
 
 .card-image {
