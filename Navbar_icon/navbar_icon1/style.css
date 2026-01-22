@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background: #1d2d44;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #1565c0, #64b5f6);
+    position: relative;
+}
+
+.container ul {
+    width: 320px;
+    display: flex;
+}
+
+.container ul li {
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    list-style: none;
+    position: relative;
+}
+
+.container ul li a {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container ul li a .icon {
+    color: #fff;
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+
+.container ul li.active a .icon {
+    transform: translateY(-33px);
+}
+
+.container ul li a .text {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-size: 1.1em;
+    position: absolute;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container ul li.active a .text {
+    opacity: 1;
+}
+
+.square {
+    bottom: 56%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    transform: rotate(-45deg);
+    border: 5px solid #1d2d44;
+    transition: 0.5s;
+    background: linear-gradient(to right, #1565c0, #64b5f6);
+}
+
+.container ul li:nth-child(1).active ~ .square {
+    left: 25px;
+    transform: rotate(45deg);
+}
+
+.container ul li:nth-child(2).active ~ .square {
+    left: 95px;
+    transform: rotate(135deg);
+}
+
+.container ul li:nth-child(3).active ~ .square {
+    left: 165px;
+    transform: rotate(225deg);
+}
+
+.container ul li:nth-child(4).active ~ .square {
+    left: 235px;
+    transform: rotate(315deg);
+}
+
+.container ul li:nth-child(5).active ~ .square {
+    left: 305px;
+    transform: rotate(405deg);
+}
