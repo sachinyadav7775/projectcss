@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -74,12 +74,12 @@ body {
     opacity: 0;
 }
 
-.container ul li:hover a .text {
+.container ul li.active a .text {
     opacity: 1;
     transform: translateY(10px);
 }
 
-.inde {
+.circle {
     top: -25px;
     width: 70px;
     height: 70px;
@@ -90,7 +90,7 @@ body {
     transition: 0.5s;
 }
 
-.inde::before {
+.circle::before {
     content: "";
     top: 33%;
     left: -27px;
@@ -102,7 +102,7 @@ body {
     box-shadow: 0px -12px 0 0 #454545;
 }
 
-.inde::after {
+.circle::after {
     content: "";
     top: 33%;
     right: -27px;
@@ -114,19 +114,19 @@ body {
     box-shadow: -1px -12px 0 0 #454545;
 }
 
-.container ul li:nth-child(1).active ~ .inde {
+.container ul li:nth-child(1).active ~ .circle {
     transform: translateX(calc(65px * 0));
 }
-.container ul li:nth-child(2).active ~ .inde {
+.container ul li:nth-child(2).active ~ .circle {
     transform: translateX(calc(65px * 1));
 }
-.container ul li:nth-child(3).active ~ .inde {
+.container ul li:nth-child(3).active ~ .circle {
     transform: translateX(calc(65px * 2));
     
 }
-.container ul li:nth-child(4).active ~ .inde {
+.container ul li:nth-child(4).active ~ .circle {
     transform: translateX(calc(65px * 3));
 }
-.container ul li:nth-child(5).active ~ .inde {
+.container ul li:nth-child(5).active ~ .circle {
     transform: translateX(calc(65px * 4));
 }
