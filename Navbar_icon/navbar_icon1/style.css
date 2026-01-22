@@ -8,6 +8,7 @@ html,body {
     width: 100%;
     height: 100%;
     background: #1d2d44;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .page {
@@ -62,7 +63,7 @@ html,body {
 }
 
 .container ul li.active a .icon {
-    transform: translateY(-37px);
+    transform: translateY(-36px);
 }
 
 .container ul li a .text {
