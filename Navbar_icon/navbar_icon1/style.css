@@ -29,13 +29,13 @@ html,body {
 }
 
 .container ul {
-    width: 320px;
+    width: 350px;
     display: flex;
 }
 
 .container ul li {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     z-index: 1;
     list-style: none;
     position: relative;
@@ -44,32 +44,32 @@ html,body {
 .container ul li a {
     width: 100%;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: 500;
     text-align: center;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container ul li a .icon {
     color: #fff;
-    position: relative;
     display: block;
     line-height: 75px;
-    font-size: 1.5em;
+    font-size: 1.6em;
     transition: 0.5s;
+    position: relative;
 }
 
 .container ul li.active a .icon {
-    transform: translateY(-33px);
+    transform: translateY(-37px);
 }
 
 .container ul li a .text {
-    color: #fff;
-    font-weight: 400;
+    color: #000000;
+    font-weight: 600;
     letter-spacing: 0.05em;
-    font-size: 1.1em;
+    font-size: 1.3em;
     position: absolute;
     transform: translateY(20px);
     opacity: 0;
@@ -92,26 +92,26 @@ html,body {
 }
 
 .container ul li:nth-child(1).active ~ .square {
-    left: 25px;
+    left: 22px;
     transform: rotate(45deg);
 }
 
 .container ul li:nth-child(2).active ~ .square {
-    left: 95px;
+    left: 92px;
     transform: rotate(135deg);
 }
 
 .container ul li:nth-child(3).active ~ .square {
-    left: 165px;
+    left: 162px;
     transform: rotate(225deg);
 }
 
 .container ul li:nth-child(4).active ~ .square {
-    left: 235px;
+    left: 232px;
     transform: rotate(315deg);
 }
 
 .container ul li:nth-child(5).active ~ .square {
-    left: 305px;
+    left: 302px;
     transform: rotate(405deg);
 }
