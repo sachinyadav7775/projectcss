@@ -32,8 +32,8 @@ body {
 }
 
 .container ul li {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     z-index: 1;
     position: relative;
 }
@@ -115,17 +115,18 @@ body {
 }
 
 .container ul li:nth-child(1).active ~ .inde {
-    transform: translateX(calc(70px * 0));
+    transform: translateX(calc(65px * 0));
 }
 .container ul li:nth-child(2).active ~ .inde {
-    transform: translateX(calc(70px * 1));
+    transform: translateX(calc(65px * 1));
 }
 .container ul li:nth-child(3).active ~ .inde {
-    transform: translateX(calc(70px * 2));
+    transform: translateX(calc(65px * 2));
+    
 }
 .container ul li:nth-child(4).active ~ .inde {
-    transform: translateX(calc(70px * 3));
+    transform: translateX(calc(65px * 3));
 }
 .container ul li:nth-child(5).active ~ .inde {
-    transform: translateX(calc(70px * 4));
+    transform: translateX(calc(65px * 4));
 }
