@@ -48,7 +48,7 @@ html,body {
     font-size: 25px;
 }
 
-#circle {
+.button {
     display: grid;
     grid-template-columns: repeat(4, 45px); /* 4 buttons per line */
     gap:6px; /*buttons ke beech ka space*/
@@ -60,7 +60,7 @@ html,body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.circle {
+.btn {
     color: white;
     height: 40px;
     width: 40px;
