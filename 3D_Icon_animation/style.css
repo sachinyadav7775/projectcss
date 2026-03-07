@@ -6,36 +6,36 @@
 
 .main {
     height: 100vh;
-    background-color: #3f4b6e;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #3f4b6e;
 }
 
 ul {
-    position: relative;
     display: flex;
+    cursor: pointer;
+    position: relative;
     transform: rotate(-30deg) skew(30deg);
     transform-style: preserve-3d;
-    cursor: pointer;
 }
 
 ul li {
-    list-style: none;
-    position: relative;
     width: 60px;
     height: 60px;
     margin: 0 20px;
+    list-style: none;
+    position: relative;
     transition: 0.5s ease-in;
 }
 
 ul li::before {
     content: "";
     position: absolute;
-    bottom: -10px;
-    left: -5px;
     width: 100%;
     height: 10px;
+    left: -5px;
+    bottom: -10px;
     background: #2a2a2a;
     transform: skewX(-41deg);
 }
