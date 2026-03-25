@@ -61,7 +61,7 @@ ul li span {
     justify-content: center;
     align-items: center;
     font-size: 30px !important;
-    transition: 1.5s ease-out;
+    transition: 1.5s ease-out; 
 }
 
 ul li:hover span {
