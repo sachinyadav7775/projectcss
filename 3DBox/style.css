@@ -9,7 +9,6 @@ body {
 } 
 
 .box {
-    background: #142d4a;
     height: 200px;
     aspect-ratio: 1/1;
     border-radius: 10px;
@@ -17,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #142d4a;
 } 
 
 @property --deg {
