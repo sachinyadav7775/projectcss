@@ -82,7 +82,7 @@ body {
     opacity: 0.85;
 }
 
-.btn:active {
+.btn:active { 
     transform: scale(0.95);
 }
 
