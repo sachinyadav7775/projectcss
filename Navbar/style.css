@@ -47,9 +47,10 @@ li { padding: 12px 11px; }
 
 li i { margin: 0px 0px 0px 5px; }
 
-button {
+.icon button {
     height: 38px;
     width: 113px;
+    cursor: pointer;
     color: var(--colors);
     font-size: 16px;
     font-family: var(--fonts);
