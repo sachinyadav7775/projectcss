@@ -67,14 +67,15 @@ h2 {
 }
 
 #box2 {
-    border: 1px solid rgb(55, 122, 190);
-    background-color: rgb(55, 122, 190);
-    height: 30px;
     width: 60px;
-    border-radius: 8px;
+    height: 30px;
     color: white;
+    cursor: pointer;
     margin-top: 12px;
     margin-left: 19px;
+    border-radius: 8px;
+    border: 1px solid #377abe;
+    background-color: #377abe;
 }
 
 #box3 {
