@@ -9,7 +9,7 @@ html,body {
     height:100%;
 }
 
-#main {
+.main {
     width: 100%;
     height: 100%;
     display: flex;
@@ -22,34 +22,46 @@ html,body {
     width: 360px;
     height: 400px;
     display: flex;
-    border-radius: 4%;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
-    border: 1px solid darkblue;
     background-color: darkcyan;
 }
 
 #page {
     width: 300px;
-    height: 350px;
+    padding: 10px;
     text-align: center;
-    display: inline-block;
+    border-radius: 10px;
     border: 1px solid white;
     background-color: white;
 }
 
-#minus {
-    height: 30px;
+.minus {
+    height: 35px;
     margin: 12px;
+    border: none;
+    padding: 15px;
     border-radius: 4px;
     background-color: #ecdddd;
 }
 
-#minus1 {
-    width: 100px;
-    height: 25px;
-    margin-top: 3px;
-    margin-left: 3px;
-    border-radius: 5px;
-    background-color: #058a8a;
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 130px;
+    padding: 4px;
+    padding: 8px;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #5ce1b9;
+}
+
+.btn:hover {
+    background-color: #70e2c0;
 }
