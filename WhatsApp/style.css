@@ -196,14 +196,14 @@ body {
 .first-image-button, 
 .second-image-button {
     height: 53px;
+    cursor: pointer;
+    overflow: hidden;
     border-radius: 50px;
     border: 1px solid #1C1E21;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     position: relative;
-    overflow: hidden;
 }
 
 .first-image-button svg,
