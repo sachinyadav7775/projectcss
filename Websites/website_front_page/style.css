@@ -47,14 +47,16 @@ h2 {
 
 h4 {
     color: aqua;
+    cursor: pointer;
 }
 
-button {
-    height: 40px;
+.navbar button {
     width: 80px;
-    background-color: cornflowerblue;
+    height: 40px;
+    cursor: pointer;
     border: none;
     border-radius: 20px;
+    background-color: cornflowerblue;
 }
 
 button i {
@@ -89,6 +91,7 @@ img {
     align-items: center;
     font-weight: 700;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 
 .box1 {
@@ -113,9 +116,10 @@ h3 {
     color: aquamarine;
 }
 
-#element-button {
-    height: 45px;
+#play-button {
     width: 45px;
+    height: 45px;
+    cursor: pointer;
     margin-left: 15px;
     border-radius: 50px;
     background-color: white;
@@ -147,6 +151,7 @@ i {
 #icon-box {
     height: 50px;
     width: 50px;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
