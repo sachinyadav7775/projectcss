@@ -69,9 +69,11 @@ html,body {
     font-weight: 700;
 }
 
-h4 {
-    height: 30px;
+.nav-element button {
     width: 60px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
     background-color: orange;
     display: flex;
     align-items: center;
@@ -179,7 +181,8 @@ small {
     width: 40px;                
     height: 40px;               
     margin: 8px;          
-    font-size: 30px;           
+    font-size: 30px;   
+    cursor: pointer;        
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
     background-color: red;   
@@ -191,7 +194,6 @@ small {
 .icon i:hover {
     background-color: steelblue;
     transition: 2s;
-    transform: rotate(360deg);
 }
 
 .login-page {
