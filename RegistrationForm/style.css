@@ -1,54 +1,55 @@
 * {
     margin:0%;
     padding:0%;
+    box-sizing: border-box;
 }
 
 html,body {
-    height:100%;
     width:100%;    
+    height:100%;
 }
 
 #main {
-    height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: aquamarine;
 }
 
 .shape {
-    height: 400px;
     width: 360px;
-    border: 1px solid darkblue;
-    background-color: darkcyan;
+    height: 400px;
     display: flex;
+    border-radius: 4%;
     align-items: center;
     justify-content: center;
-    border-radius: 4%;
+    border: 1px solid darkblue;
+    background-color: darkcyan;
 }
 
 #page {
-    height: 350px;
     width: 300px;
+    height: 350px;
+    text-align: center;
+    display: inline-block;
     border: 1px solid white;
     background-color: white;
-    display: inline-block;
-    text-align: center;
 }
 
 #minus {
     height: 30px;
-    background-color: rgb(236, 221, 221);
-    border-radius: 4px;
     margin: 12px;
+    border-radius: 4px;
+    background-color: #ecdddd;
 }
 
 #minus1 {
+    width: 100px;
+    height: 25px;
     margin-top: 3px;
     margin-left: 3px;
-    background-color: rgb(5, 138, 138);
-    height: 25px;
-    width: 100px;
     border-radius: 5px;
+    background-color: #058a8a;
 }
