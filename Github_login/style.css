@@ -53,6 +53,7 @@ button {
     height: 50px;
     width: 302px;
     color: white;
+    cursor: pointer;
     background-color: rgba(234, 112, 210,1);
     border: 1px solid rgba(234, 112, 210, 0.5);
     border-radius: 10px;
