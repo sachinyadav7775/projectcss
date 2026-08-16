@@ -34,6 +34,7 @@ h1 {
 }
 
 #square:hover {
+    cursor: pointer;
     background-color: yellow;
 }
 
@@ -46,15 +47,17 @@ h1 {
 }
 
 #circle {
+    cursor: pointer;
     border-radius: 50%;
 }
 
 #diamond {
-    margin-top: 30px;
-    rotate: 45deg;
     width: 120px;
     height: 120px;
+    rotate: 45deg;
+    cursor: pointer;
     translate: 15px;
+    margin-top: 30px;
 }
 
 #diamond h1 {

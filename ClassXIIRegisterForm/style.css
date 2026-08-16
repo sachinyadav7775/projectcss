@@ -37,11 +37,11 @@ h1 {
     margin-left: 80px;
 }
 
-#box1 {
+#btn {
     height: 30px;
     width: 180px;
-    border: 2px solid rgb(28, 100, 207);
-    background-color: rgb(28, 100, 207);
+    border: 2px solid #1c64cf;
+    background-color: #1c64cf;
     border-radius: 4px;
     color: white;
     margin-top: 12px;
