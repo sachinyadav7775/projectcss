@@ -1,703 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flipkart Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
 
-    <title>Flipkart Website</title>
+        <!-- ================= HEADER ================= -->
 
-    <link rel="stylesheet" href="style.css">
+        <header>
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer">
-</head>
+            <div class="navbar">
 
-<body>
-
-    <!-- ================= HEADER ================= -->
-
-    <header>
-
-        <div class="navbar">
-
-            <!-- Logo -->
-            <div class="nav-logo">
-                <a href="#" aria-label="Flipkart Home">
+                <!-- Logo -->
+                <div class="nav-logo">
                     <div class="logo"></div>
-                </a>
-            </div>
-
-            <!-- Search -->
-            <div class="nav-search">
-
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
 
-                <input
-                    class="search-input"
-                    type="search"
-                    placeholder="Search for products, Brands and More"
-                    aria-label="Search for products, Brands and More">
+                <!-- Search -->
+                <div class="nav-search">
+
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <input
+                        class="search-input"
+                        type="search"
+                        placeholder="Search for products, Brands and More"
+                        aria-label="Search for products, Brands and More"
+                    >
+
+                </div>
+
+                <!-- Navbar Icons -->
+                <div class="nav-icon">
+
+                    <div class="icon">
+
+                        <div class="icon-element">
+
+                            <a href="#">
+                                <i class="fa-regular fa-user"></i>
+                                Login
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Cart
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-solid fa-shop"></i>
+                                Become a Seller
+                            </a>
+
+                            <button type="button" aria-label="More options">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <!-- Navbar Icons -->
-            <div class="nav-icon">
+        </header>
 
-                <div class="icon">
+        <!-- ================= MAIN ================= -->
 
-                    <div class="icon-element">
+        <main>
 
-                        <a href="#">
-                            <i class="fa-regular fa-user"></i>
-                            Login
-                        </a>
+            <!-- ================= CATEGORY SECTION ================= -->
 
-                        <a href="#">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            Cart
-                        </a>
+            <section class="nav-first">
+
+                <div class="nav-second">
+
+                    <div class="element">
+
+                        <span>
+                            <img src="delivery-man.webp"
+                                alt="Minutes"
+                                height="90"
+                            >
+                            <p>Minutes</p>
+                        </span>
+
+                        <span>
+                            <img src="realme.webp"
+                                alt="Mobiles and Tablets"
+                                height="90"
+                            >
+                            <p>Mobiles &amp; Tablets</p>
+                        </span>
+
+                        <span>
+                            <img src="laptop.png"
+                                alt="Electronics"
+                                height="90"
+                            >
+                            <p>Electronics</p>
+                        </span>
+
+                        <span>
+                            <img src="lamp1.jpg"
+                                alt="Home and Furniture"
+                                height="90"
+                            >
+                            <p>Home &amp; Furniture</p>
+                        </span>
+
+                        <span>
+                            <img src="gift.webp"
+                                alt="Gift Items"
+                                height="90"
+                            >
+                            <p>Gift</p>
+                        </span>
+
+                        <span>
+                            <img src="Home.webp"
+                                alt="TVs and Appliances"
+                                height="90"
+                            >
+                            <p>TVs &amp; Appliances</p>
+                        </span>
+
+                        <span>
+                            <img src="card.webp"
+                                alt="Beauty and Food"
+                                height="90"
+                            >
+                            <p>Beauty, Food...</p>
+                        </span>
+
+                        <span>
+                            <img src="watch.jpg"
+                                alt="Watches"
+                                height="90"
+                            >
+                            <p>Watch</p>
+                        </span>
+
+                        <span>
+                            <img src="food.png"
+                                alt="Grocery"
+                                height="90"
+                            >
+                            <p>Grocery</p>
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ================= BANNER ================= -->
+
+            <div class="box"></div>
+
+            <!-- ================= TOP DEALS ================= -->
+
+            <section class="page">
+
+                <div class="box1">
+
+                    <div class="box2">
+                        <h2>Top Deals</h2>
+                    </div>
+
+                    <div class="box3">
+
+                        <div class="element1">
+
+                            <div class="small-card">
+                                <div class="small-img"></div>
+                                <h5>Laptop</h5>
+                                <span>
+                                    <p>From &#8377;85,999</p>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="element2">
+
+                            <div class="small-card1">
+                                <div class="small-img1"></div>
+                                <h5>Wall Clocks</h5>
+                                <span>
+                                    <p>From &#8377;599</p>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="element3">
+
+                            <div class="small-card2">
+                                <div class="small-img2"></div>
+                                <h5>Helmet</h5>
+                                <span>
+                                    <p>From &#8377;1,499</p>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="element4">
+
+                            <div class="small-card3">
+                                <div class="small-img3"></div>
+                                <h5>Monitors</h5>
+                                <span>
+                                    <p>From &#8377;8,299</p>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="element5">
+
+                            <div class="small-card4">
+                                <div class="small-img4"></div>
+                                <h5>Apple iPads</h5>
+                                <span>
+                                    <p>From &#8377;21,999</p>
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card"></div>
+
+            </section>
+
+            <!-- ================= FASHION DEALS ================= -->
+
+            <section class="card1">
+
+                <!-- Fashion Section 1 -->
+
+                <div class="box4">
+
+                    <div class="box5">
+                        <h2>Fashion's Top Deals</h2>
+                        <div class="circle">
+                            <div class="small-circle">&gt;</div>
+                        </div>
+                    </div>
+
+                    <div class="box6">
+
+                        <div class="small-box">
+                            <div class="img"></div>
+                            <h3>Men's Sports Shoes</h3>
+                            <h4>Min. 70% Off</h4>
+                        </div>
+
+                        <div class="small-box1">
+                            <div class="img1"></div>
+                            <h3>Men's Jackets</h3>
+                            <h4>Min. 50% Off</h4>
+                        </div>
+
+                        <div class="small-box2">
+                            <div class="img2"></div>
+                            <h3>Blankets</h3>
+                            <h4>Min. 45% Off</h4>
+                        </div>
+
+                        <div class="small-box3">
+                            <div class="img3"></div>
+                            <h3>Men's Sweatshirts</h3>
+                            <h4>Min. 35% Off</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Fashion Section 2 -->
+
+                <div class="box7">
+
+                    <div class="box8">
+                        <h2>Fashion's Top Deals</h2>
+                        <div class="circle">
+                            <div class="small-circle">&gt;</div>
+                        </div>
+                    </div>
+
+                    <div class="box9">
+
+                        <div class="small-box">
+                            <div class="img"></div>
+                            <h3>Men's Sports Shoes</h3>
+                            <h4>Min. 70% Off</h4>
+                        </div>
+
+                        <div class="small-box1">
+                            <div class="img1"></div>
+                            <h3>Men's Jackets</h3>
+                            <h4>Min. 50% Off</h4>
+                        </div>
+
+                        <div class="small-box2">
+                            <div class="img2"></div>
+                            <h3>Blankets</h3>
+                            <h4>Min. 45% Off</h4>
+                        </div>
+
+                        <div class="small-box3">
+                            <div class="img3"></div>
+                            <h3>Men's Sweatshirts</h3>
+                            <h4>Min. 35% Off</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="img4"></div>
+
+            </section>
+
+            <!-- ================= RECENTLY VIEWED ================= -->
+
+            <section class="card2">
+
+                <div class="box10">
+                    <h2>Recently Viewed</h2>
+                </div>
+
+                <div class="box11">
+
+                    <div class="small-box5">
+                        <div class="img5"></div>
+                        <h3>Acer Aspire 7 Intel</h3>
+                        <h4>&#8377;65,000</h4>
+                    </div>
+
+                    <div class="small-box6">
+                        <div class="img6"></div>
+                        <h3>Pillows</h3>
+                        <h4>&#8377;500</h4>
+                    </div>
+
+                    <div class="small-box7">
+                        <div class="img7"></div>
+                        <h3>Watch</h3>
+                        <h4>&#8377;1,000</h4>
+                    </div>
+
+                    <div class="small-box8">
+                        <div class="img8"></div>
+                        <h3>Laptop Table</h3>
+                        <h4>&#8377;600</h4>
+                    </div>
+
+                    <div class="small-box9">
+                        <div class="img9"></div>
+                        <h3>12x 5G 5000mAh</h3>
+                        <h4>&#8377;20,000</h4>
+                    </div>
+
+                    <div class="small-box10">
+                        <div class="img10"></div>
+                        <h3>Gaming Products</h3>
+                        <h4>&#8377;77,000</h4>
+                    </div>
+
+                    <div class="small-box11">
+                        <div class="img11"></div>
+                        <h3>Refrigerator</h3>
+                        <h4>&#8377;40,500</h4>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer>
+
+            <!-- Footer Main -->
+
+            <div class="foot-panel1">
+
+                <div class="foot-element">
+
+                    <!-- ABOUT -->
+
+                    <div class="foot-box">
+                        <h6>ABOUT</h6>
+                        <a href="#">Contact Us</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Flipkart Stories</a>
+                        <a href="#">Press</a>
+                        <a href="#">Corporate Information</a>
+                    </div>
+
+                    <!-- GROUP COMPANIES -->
+
+                    <div class="foot-box1">
+                        <h6>GROUP COMPANIES</h6>
+                        <a href="#">Myntra</a>
+                        <a href="#">Cleartrip</a>
+                        <a href="#">Shopsy</a>
+                    </div>
+
+                    <!-- HELP -->
+
+                    <div class="foot-box2">
+                        <h6>HELP</h6>
+                        <a href="#">Payments</a>
+                        <a href="#">Shipping</a>
+                        <a href="#">Cancellation &amp; Returns</a>
+                        <a href="#">FAQ</a>
+                    </div>
+
+                    <!-- CONSUMER POLICY -->
+
+                    <div class="foot-box3">
+                        <h6>CONSUMER POLICY</h6>
+                        <a href="#">Cancellation &amp; Returns</a>
+                        <a href="#">Terms Of Use</a>
+                        <a href="#">Security</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Sitemap</a>
+                        <a href="#">Grievance Redressal</a>
+                        <a href="#">EPR Compliance</a>
+                        <a href="#">FSSAI Food Safety Connect App</a>
+                    </div>
+
+                    <!-- MAIL US -->
+
+                    <div class="foot-box4">
+                        <h6>Mail Us:</h6>
+                        <p>Flipkart Internet Private Limited,</p>
+                        <p>Buildings Alyssa, Begonia &amp;</p>
+                        <p>Clove Embassy Tech Village,</p>
+                        <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                        <p>Bengaluru, 560103,</p>
+                        <p>Karnataka, India</p>
+
+                        <!-- Social Media -->
+
+                        <div class="foot-social">
+                            <h6>Social:</h6>
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" aria-label="X">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="#" aria-label="YouTube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- REGISTERED OFFICE -->
+
+                    <div class="foot-box5">
+                        <h6>Registered Office Address:</h6>
+                        <p>Flipkart Internet Private Limited,</p>
+                        <p>Buildings Alyssa, Begonia &amp;</p>
+                        <p>Clove Embassy Tech Village,</p>
+                        <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                        <p>Bengaluru, 560103,</p>
+                        <p>Karnataka, India</p>
+                        <p>CIN: U51109KA2012PTC066107</p>
+                        <p>
+                            Telephone:
+                            <a href="tel:04445614700">044-45614700</a>
+                            /
+                            <a href="tel:04467415800">044-67415800</a>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+
+            <div class="foot-panel2">
+
+                <div class="foot-element1">
+
+                    <div class="item-icon">
 
                         <a href="#">
                             <i class="fa-solid fa-shop"></i>
                             Become a Seller
                         </a>
 
-                        <button type="button" aria-label="More options">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </button>
-
                     </div>
 
-                </div>
-
-            </div>
-
-        </div>
-
-    </header>
-
-
-    <!-- ================= MAIN ================= -->
-
-    <main>
-
-        <!-- ================= CATEGORY SECTION ================= -->
-
-        <section class="nav-first">
-
-            <div class="nav-second">
-
-                <div class="element">
-
-                    <span>
-                        <img src="delivery-man.webp"
-                            alt="Minutes"
-                            height="90">
-                        <p>Minutes</p>
-                    </span>
-
-                    <span>
-                        <img src="realme.webp"
-                            alt="Mobiles and Tablets"
-                            height="90">
-                        <p>Mobiles &amp; Tablets</p>
-                    </span>
-
-                    <span>
-                        <img src="laptop.png"
-                            alt="Electronics"
-                            height="90">
-                        <p>Electronics</p>
-                    </span>
-
-                    <span>
-                        <img src="lamp1.jpg"
-                            alt="Home and Furniture"
-                            height="90">
-                        <p>Home &amp; Furniture</p>
-                    </span>
-
-                    <span>
-                        <img src="gift.webp"
-                            alt="Gift Items"
-                            height="90">
-                        <p>Gift</p>
-                    </span>
-
-                    <span>
-                        <img src="Home.webp"
-                            alt="TVs and Appliances"
-                            height="90">
-                        <p>TVs &amp; Appliances</p>
-                    </span>
-
-                    <span>
-                        <img src="card.webp"
-                            alt="Beauty and Food"
-                            height="90">
-                        <p>Beauty, Food...</p>
-                    </span>
-
-                    <span>
-                        <img src="watch.jpg"
-                            alt="Watches"
-                            height="90">
-                        <p>Watch</p>
-                    </span>
-
-                    <span>
-                        <img src="food.png"
-                            alt="Grocery"
-                            height="90">
-                        <p>Grocery</p>
-                    </span>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= BANNER ================= -->
-
-        <div class="box"></div>
-
-
-        <!-- ================= TOP DEALS ================= -->
-
-        <section class="page">
-
-            <div class="box1">
-
-                <div class="box2">
-                    <h2>Top Deals</h2>
-                </div>
-
-                <div class="box3">
-
-                    <div class="element1">
-
-                        <div class="small-card">
-                            <div class="small-img"></div>
-
-                            <h5>Laptop</h5>
-
-                            <span>
-                                <p>From &#8377;85,999</p>
-                            </span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="element2">
-
-                        <div class="small-card1">
-                            <div class="small-img1"></div>
-
-                            <h5>Wall Clocks</h5>
-
-                            <span>
-                                <p>From &#8377;599</p>
-                            </span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="element3">
-
-                        <div class="small-card2">
-                            <div class="small-img2"></div>
-
-                            <h5>Helmet</h5>
-
-                            <span>
-                                <p>From &#8377;1,499</p>
-                            </span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="element4">
-
-                        <div class="small-card3">
-                            <div class="small-img3"></div>
-
-                            <h5>Monitors</h5>
-
-                            <span>
-                                <p>From &#8377;8,299</p>
-                            </span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="element5">
-
-                        <div class="small-card4">
-                            <div class="small-img4"></div>
-
-                            <h5>Apple iPads</h5>
-
-                            <span>
-                                <p>From &#8377;21,999</p>
-                            </span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="card"></div>
-
-        </section>
-
-
-        <!-- ================= FASHION DEALS ================= -->
-
-        <section class="card1">
-
-            <!-- Fashion Section 1 -->
-
-            <div class="box4">
-
-                <div class="box5">
-
-                    <h2>Fashion's Top Deals</h2>
-
-                    <div class="circle">
-                        <div class="small-circle">&gt;</div>
-                    </div>
-
-                </div>
-
-
-                <div class="box6">
-
-                    <div class="small-box">
-
-                        <div class="img"></div>
-
-                        <h3>Men's Sports Shoes</h3>
-
-                        <h4>Min. 70% Off</h4>
-
-                    </div>
-
-
-                    <div class="small-box1">
-
-                        <div class="img1"></div>
-
-                        <h3>Men's Jackets</h3>
-
-                        <h4>Min. 50% Off</h4>
-
-                    </div>
-
-
-                    <div class="small-box2">
-
-                        <div class="img2"></div>
-
-                        <h3>Blankets</h3>
-
-                        <h4>Min. 45% Off</h4>
-
-                    </div>
-
-
-                    <div class="small-box3">
-
-                        <div class="img3"></div>
-
-                        <h3>Men's Sweatshirts</h3>
-
-                        <h4>Min. 35% Off</h4>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Fashion Section 2 -->
-
-            <div class="box7">
-
-                <div class="box8">
-
-                    <h2>Fashion's Top Deals</h2>
-
-                    <div class="circle">
-                        <div class="small-circle">&gt;</div>
-                    </div>
-
-                </div>
-
-
-                <div class="box9">
-
-                    <div class="small-box">
-
-                        <div class="img"></div>
-
-                        <h3>Men's Sports Shoes</h3>
-
-                        <h4>Min. 70% Off</h4>
-
-                    </div>
-
-
-                    <div class="small-box1">
-
-                        <div class="img1"></div>
-
-                        <h3>Men's Jackets</h3>
-
-                        <h4>Min. 50% Off</h4>
-
-                    </div>
-
-
-                    <div class="small-box2">
-
-                        <div class="img2"></div>
-
-                        <h3>Blankets</h3>
-
-                        <h4>Min. 45% Off</h4>
-
-                    </div>
-
-
-                    <div class="small-box3">
-
-                        <div class="img3"></div>
-
-                        <h3>Men's Sweatshirts</h3>
-
-                        <h4>Min. 35% Off</h4>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="img4"></div>
-
-        </section>
-
-
-        <!-- ================= RECENTLY VIEWED ================= -->
-
-        <section class="card2">
-
-            <div class="box10">
-                <h2>Recently Viewed</h2>
-            </div>
-
-
-            <div class="box11">
-
-                <div class="small-box5">
-
-                    <div class="img5"></div>
-
-                    <h3>Acer Aspire 7 Intel</h3>
-
-                    <h4>&#8377;65,000</h4>
-
-                </div>
-
-
-                <div class="small-box6">
-
-                    <div class="img6"></div>
-
-                    <h3>Pillows</h3>
-
-                    <h4>&#8377;500</h4>
-
-                </div>
-
-
-                <div class="small-box7">
-
-                    <div class="img7"></div>
-
-                    <h3>Watch</h3>
-
-                    <h4>&#8377;1,000</h4>
-
-                </div>
-
-
-                <div class="small-box8">
-
-                    <div class="img8"></div>
-
-                    <h3>Laptop Table</h3>
-
-                    <h4>&#8377;600</h4>
-
-                </div>
-
-
-                <div class="small-box9">
-
-                    <div class="img9"></div>
-
-                    <h3>12x 5G 5000mAh</h3>
-
-                    <h4>&#8377;20,000</h4>
-
-                </div>
-
-
-                <div class="small-box10">
-
-                    <div class="img10"></div>
-
-                    <h3>Gaming Products</h3>
-
-                    <h4>&#8377;77,000</h4>
-
-                </div>
-
-
-                <div class="small-box11">
-
-                    <div class="img11"></div>
-
-                    <h3>Refrigerator</h3>
-
-                    <h4>&#8377;40,500</h4>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <!-- Footer Main -->
-
-        <div class="foot-panel1">
-
-            <div class="foot-element">
-
-
-                <!-- ABOUT -->
-
-                <div class="foot-box">
-
-                    <h6>ABOUT</h6>
-
-                    <a href="#">Contact Us</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Careers</a>
-                    <a href="#">Flipkart Stories</a>
-                    <a href="#">Press</a>
-                    <a href="#">Corporate Information</a>
-
-                </div>
-
-
-                <!-- GROUP COMPANIES -->
-
-                <div class="foot-box1">
-
-                    <h6>GROUP COMPANIES</h6>
-
-                    <a href="#">Myntra</a>
-                    <a href="#">Cleartrip</a>
-                    <a href="#">Shopsy</a>
-
-                </div>
-
-
-                <!-- HELP -->
-
-                <div class="foot-box2">
-
-                    <h6>HELP</h6>
-
-                    <a href="#">Payments</a>
-                    <a href="#">Shipping</a>
-                    <a href="#">Cancellation &amp; Returns</a>
-                    <a href="#">FAQ</a>
-
-                </div>
-
-
-                <!-- CONSUMER POLICY -->
-
-                <div class="foot-box3">
-
-                    <h6>CONSUMER POLICY</h6>
-
-                    <a href="#">Cancellation &amp; Returns</a>
-                    <a href="#">Terms Of Use</a>
-                    <a href="#">Security</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Sitemap</a>
-                    <a href="#">Grievance Redressal</a>
-                    <a href="#">EPR Compliance</a>
-                    <a href="#">FSSAI Food Safety Connect App</a>
-
-                </div>
-
-
-                <!-- MAIL US -->
-
-                <div class="foot-box4">
-
-                    <h6>Mail Us:</h6>
-
-                    <p>Flipkart Internet Private Limited,</p>
-                    <p>Buildings Alyssa, Begonia &amp;</p>
-                    <p>Clove Embassy Tech Village,</p>
-                    <p>Outer Ring Road, Devarabeesanahalli Village,</p>
-                    <p>Bengaluru, 560103,</p>
-                    <p>Karnataka, India</p>
-
-
-                    <!-- Social Media -->
-
-                    <div class="foot-social">
-
-                        <h6>Social:</h6>
-
-                        <a href="#" aria-label="Facebook">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-
-                        <a href="#" aria-label="X">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-
-                        <a href="#" aria-label="YouTube">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-
-                        <a href="#" aria-label="Instagram">
-                            <i class="fa-brands fa-instagram"></i>
+                    <div class="item-icon1">
+
+                        <a href="#">
+                            <i class="fa-regular fa-star"></i>
+                            Advertise
                         </a>
 
                     </div>
 
-                </div>
+                    <div class="item-icon2">
 
+                        <a href="#">
+                            <i class="fa-solid fa-gift"></i>
+                            Gift Cards
+                        </a>
 
-                <!-- REGISTERED OFFICE -->
+                    </div>
 
-                <div class="foot-box5">
+                    <div class="item-icon3">
 
-                    <h6>Registered Office Address:</h6>
+                        <a href="#">
+                            <i class="fa-regular fa-circle-question"></i>
+                            Help Center
+                        </a>
 
-                    <p>Flipkart Internet Private Limited,</p>
-                    <p>Buildings Alyssa, Begonia &amp;</p>
-                    <p>Clove Embassy Tech Village,</p>
-                    <p>Outer Ring Road, Devarabeesanahalli Village,</p>
-                    <p>Bengaluru, 560103,</p>
-                    <p>Karnataka, India</p>
+                    </div>
 
-                    <p>CIN: U51109KA2012PTC066107</p>
-
-                    <p>
-                        Telephone:
-                        <a href="tel:04445614700">044-45614700</a>
-                        /
-                        <a href="tel:04467415800">044-67415800</a>
-                    </p>
+                    <div class="copyright">
+                        &copy; 2007-2026 Flipkart.com
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
+        </footer>
 
-
-        <!-- Footer Bottom -->
-
-        <div class="foot-panel2">
-
-            <div class="foot-element1">
-
-
-                <div class="item-icon">
-
-                    <a href="#">
-                        <i class="fa-solid fa-shop"></i>
-                        Become a Seller
-                    </a>
-
-                </div>
-
-
-                <div class="item-icon1">
-
-                    <a href="#">
-                        <i class="fa-regular fa-star"></i>
-                        Advertise
-                    </a>
-
-                </div>
-
-
-                <div class="item-icon2">
-
-                    <a href="#">
-                        <i class="fa-solid fa-gift"></i>
-                        Gift Cards
-                    </a>
-
-                </div>
-
-
-                <div class="item-icon3">
-
-                    <a href="#">
-                        <i class="fa-regular fa-circle-question"></i>
-                        Help Center
-                    </a>
-
-                </div>
-
-
-                <div class="copyright">
-                    &copy; 2007-2026 Flipkart.com
-                </div>
-
-            </div>
-
-        </div>
-
-    </footer>
-
-</body>
+    </body>
 
 </html>

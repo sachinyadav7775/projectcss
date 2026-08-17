@@ -31,7 +31,6 @@ img {
     display: block;
 }
 
-
 /* ========================== NAVBAR ==========================*/
 
 .navbar {
@@ -893,6 +892,7 @@ img {
     .nav-logo {
         width: 115px;
         height: 40px;
+        margin-right: 150px;
     }
 
     .logo {
@@ -1136,6 +1136,7 @@ img {
 
     .nav-logo {
         width: 100px;
+        margin: auto;
     }
 
     .icon-element {
